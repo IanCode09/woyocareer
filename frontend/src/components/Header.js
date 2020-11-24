@@ -1,6 +1,6 @@
 import React from 'react'
 import { Container, Navbar, Nav, Image } from 'react-bootstrap'
-import { Link } from 'react-router-dom'
+import { LinkContainer } from 'react-router-bootstrap'
 import Logo from '../assets/images/logo.png'
 
 const Header = () => {
@@ -9,9 +9,9 @@ const Header = () => {
             <Navbar bg="primary" expand="lg">
                 <Container>
                     <Navbar.Brand href="#home">
-                        <Link to='/'>
-                            <Image src={Logo} style={{width: '100px'}} />
-                        </Link>
+                        <LinkContainer to='/'>
+                            <Image src={Logo} />
+                        </LinkContainer>
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">

@@ -7,6 +7,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.navbar-brand img {
+  width: 100px;
+}
+
 .jumbotron h4 {
   margin-bottom: 30px;
 }
@@ -15,7 +19,7 @@
   font-weight: bold;
 }
 
-.jumbotron button {
+.hero_container button {
   margin-top: 30px;
 }
 
@@ -73,4 +77,12 @@ footer h5 {
 
 footer img {
   margin-bottom: 20px;
+}
+
+.herojob_container h6 {
+  margin-top: 30px;
+}
+
+.herojob_container .jumbotron {
+  height: 300px;
 }
