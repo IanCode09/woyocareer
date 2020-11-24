@@ -1,9 +1,11 @@
 import React from 'react';
+import { Container } from 'react-bootstrap'
+import HomeScreen from './screens/HomeScreen'
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello There</h1>
+        <HomeScreen />
     </div>
   );
 }
