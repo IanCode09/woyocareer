@@ -27,3 +27,30 @@
   width: 200px;
   margin-bottom: 50px;
 }
+
+.testimoni_container {
+  height: 450px;
+  padding: 40px 0;
+}
+
+.testimoni_container h3 {
+  margin-top: 20px;
+  margin-bottom: 60px;
+  color: #2C3050;
+  font-weight: bold;
+}
+
+.testimoni_container h4 {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  
+}
+
+.testimoni_container h5 {
+  padding: 0 50px;
+}
+
+.testimoni_container img {
+  width: 150px;
+  margin: auto;
+}
