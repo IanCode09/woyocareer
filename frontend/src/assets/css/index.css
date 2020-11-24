@@ -19,7 +19,7 @@
   font-weight: bold;
 }
 
-.hero_container button {
+.hero_container a {
   margin-top: 30px;
 }
 
@@ -89,5 +89,5 @@ footer img {
 
 .jobscreen_container {
   margin-top: 50px;
-  margin-bottom: 200px;
+  /* margin-bottom: 200px; */
 }
