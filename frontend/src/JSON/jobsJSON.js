@@ -17,3 +17,5 @@ const jobsJSON = [
         image: "images/nutech.png"
     }
 ]
+
+export default jobsJSON

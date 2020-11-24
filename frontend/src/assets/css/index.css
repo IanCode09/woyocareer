@@ -86,3 +86,8 @@ footer img {
 .herojob_container .jumbotron {
   height: 300px;
 }
+
+.jobscreen_container {
+  margin-top: 50px;
+  margin-bottom: 200px;
+}
