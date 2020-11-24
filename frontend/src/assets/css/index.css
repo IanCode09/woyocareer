@@ -54,3 +54,23 @@
   width: 150px;
   margin: auto;
 }
+
+footer {
+  margin-top: 150px;
+  height: 350px;
+  background-color: black;
+  color: white;
+  padding: 50px 0;
+}
+
+footer svg {
+  margin-right: 15px;
+}
+
+footer h5 {
+  margin-bottom: 20px;
+}
+
+footer img {
+  margin-bottom: 20px;
+}

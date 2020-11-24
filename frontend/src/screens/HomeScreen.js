@@ -4,6 +4,7 @@ import Header from '../components/Header'
 import Hero from '../components/Hero'
 import Colab from '../components/Colab'
 import Testimoni from '../components/Testimoni'
+import Footer from '../components/Footer'
 
 const HomeScreen = () => {
     return (
@@ -16,6 +17,7 @@ const HomeScreen = () => {
             </Container>
 
             <Testimoni />
+            <Footer />
         </div>
     )
 }
